@@ -36,8 +36,6 @@ gem 'angular-rails-templates'
 gem 'angularjs-rails'
 gem 'bower-rails'
 
-gem "foreman"
-
 group :production, :staging do
   gem "rails_12factor"
   gem "rails_stdout_logging"
