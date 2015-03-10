@@ -18,3 +18,9 @@
 //= require angular-flash/dist/angular-flash
 //= require angular-rails-templates
 //= require_tree .
+
+rescue_from ActiveRecord::RecordNotFound do
+  respond_to do |type|
+    type.all  { render :nothing => true, :status => 404 }
+  end
+end

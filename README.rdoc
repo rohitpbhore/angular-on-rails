@@ -1,28 +1,44 @@
-== README
+## Ruby on Rails application using AngularJs
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+CRUD operations through AngularJS
 
-Things you may want to cover:
+### Dependencies
 
-* Ruby version
+Runs under Rails 4.2.0 and Ruby 2.2.0
 
-* System dependencies
+### Get It
 
-* Configuration
+The source code is managed with Git (a version control system) and hosted at GitHub.
 
-* Database creation
+You can download the app ("clone the repository") with the command
 
-* Database initialization
+```
+$ git clone https://github.com/rohitpbhore/angular-on-rails.git
+```
 
-* How to run the test suite
+### Getting Started
 
-* Services (job queues, cache servers, search engines, etc.)
+### Set Up the Database
 
-* Deployment instructions
+You'll need to be in the application root directory:
 
-* ...
+```
+$ cd angular-on-rails
+```
 
+You'll need to edit the database.yml
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+```
+$ rake db:create
+$ rake db:migrate
+
+```
+
+Start the server
+
+```
+$ rails server
+```
+
+and go to http://localhost:3000/
+

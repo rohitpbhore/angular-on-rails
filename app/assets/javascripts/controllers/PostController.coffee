@@ -42,6 +42,4 @@ controllers.controller("PostController", [ '$scope', '$routeParams', '$resource'
     $scope.delete = ->
       $scope.post.$delete()
       $scope.back()
-
-
 ])
