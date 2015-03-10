@@ -18,13 +18,7 @@ $ git clone https://github.com/rohitpbhore/angular-on-rails.git
 
 ### Getting Started
 
-### Set Up the Database
-
-You'll need to be in the application root directory:
-
-```
-$ cd angular-on-rails
-```
+Set Up the Database
 
 You'll need to edit the database.yml
 
@@ -42,3 +36,5 @@ $ rails server
 
 and go to http://localhost:3000/
 
+
+For demo [Click here](https://angulr-on-rails.herokuapp.com)
